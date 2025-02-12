@@ -207,137 +207,79 @@ export const TESTIMONIALS = [
 // Projects
 export const PROJECTS = [
   {
-    name: "Disney+ Clone",
+    name: "TradingBook AI",
     description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+      "Next.JS web application with an LLM that answers queries regarding stock-markets & cryptocurrency",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
-      {
-        name: "firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project1,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
-  },
-  {
-    name: "Golds Gym",
-    description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project2,
-    source_code_link: "https://github.com/sanidhyy/fitness-app",
-    live_site_link: "https://fitness-gym-react.netlify.app/",
-  },
-  {
-    name: "Shoppy",
-    description:
-      "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "syncfusion",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project3,
-    source_code_link: "https://github.com/sanidhyy/admin-dashboard",
-    live_site_link: "https://shoppy-dashboard-react.netlify.app/",
-  },
-  {
-    name: "TikTok Clone",
-    description:
-      "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
-    tags: [
       {
         name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "postgreSQL",
         color: "pink-text-gradient",
       },
+      {
+        name: "fastapi",
+        color: "green-text-gradient",
+      }
     ],
-    image: project4,
-    source_code_link: "https://github.com/sanidhyy/tiktok-clone",
-    live_site_link: "https://tiktok-clone-react.vercel.app/",
+    image: project1,
+    source_code_link: "https://github.com/jasangill1/TradingBook",
+    live_site_link: "https://tradingbook.ai/",
   },
   {
-    name: "Cryptoverse",
+    name: "Team Flag Warfare",
     description:
-      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
+      "3D game modeled on flag the capture games. Developed with Roblox Studio and coded in Lua.",
     tags: [
       {
-        name: "react",
+        name: "robloxstudio",
         color: "blue-text-gradient",
       },
+      
       {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "lua",
         color: "pink-text-gradient",
-      },
+      }
     ],
-    image: project5,
-    source_code_link: "https://github.com/sanidhyy/crypto-app",
-    live_site_link: "https://reactjscryptoapp.netlify.app/",
+    image: project2,
+    source_code_link: "https://www.roblox.com/games/170542886/Team-Flag-Warfare",
+    live_site_link: "https://www.roblox.com/games/170542886/Team-Flag-Warfare",
   },
   {
-    name: "Travel Advisor",
+    name: "Pawpal",
     description:
-      "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
+      "Rent-A-Dog Web Application loosely based on Craiglist posting system. Allows dog owners to rent out their dog.",
     tags: [
       {
-        name: "react",
+        name: "XAAMP",
+        color: "green-text-gradient",
+      },
+      
+      {
+        name: "MySQL",
+        color: "pink-text-gradient",
+      },
+
+      {
+        name: "TailwindCSS",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "PHP",
         color: "green-text-gradient",
-      },
-      {
-        name: "material-ui",
-        color: "pink-text-gradient",
-      },
+      }
     ],
-    image: project6,
-    source_code_link: "https://github.com/sanidhyy/travel-advisor",
-    live_site_link: "https://travel-advisor-reactjs.netlify.app/",
-  },
+    image: project3,
+    source_code_link: "",
+    live_site_link: "",
+  }
+  
 ] as const;
 
 export const SOCIALS = [
