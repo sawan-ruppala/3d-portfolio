@@ -165,7 +165,7 @@ export const EXPERIENCES = [
     title: "Hardware Technician (Trainee)",
     company_name: "BC Technology for Learning Society",
     icon: shopify, // Keeping the same PNG name
-    iconBg: "#012F66",
+    iconBg: "#091F92",
     date: "July 2023 - Oct 2023",
     points: [
       "Trained at a registered charity, refurbishing a record of 200+ laptops for distribution to schools, businesses, and low-income communities.",
