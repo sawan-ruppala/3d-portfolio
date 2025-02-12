@@ -137,45 +137,44 @@ export const TECHNOLOGIES = [
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Full-Stack Junior Developer",
+    company_name: "Youth Leadership Society of BC",
+    icon: tesla, // Keeping the same PNG name
+    iconBg: "#FFFFFF",
+    date: "Nov 2024 - Jan 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Refactored the certificate retrieval system, reducing search time by 30% by replacing direct Blob storage links with dynamic file lookup using metadata in Azure CosmoDB.",
+      "Optimized the database schema, improving data organization, maintainability, and search accuracy for student certificates across British Columbia.",
+      "Programmed on the management dashboard, streamlining the creation of student accounts, resulting in a 25% improvement in administrative efficiency.",
+      "Assisted in deploying an email-notification system for automated certificate distribution, minimizing labor expenditure by an estimated $100 to $250 per each program cycle.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Website Design Intern",
+    company_name: "Pacific Cellulose Services LTD",
+    icon: starbucks, // Keeping the same PNG name
+    iconBg: "#1E4D0F",
+    date: "June 2024 - Aug 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and launched the corporate website on Squarespace, attaining internet traffic of 50+ visitors daily across North American and Middle Eastern paper pulp markets.",
+      "Constructed an ordering process system that funneled client requests to management, simplifying business operations.",
+      "Worked with directors to select impactful visuals of pulp products and compelling words to drive client engagement and improve SEO.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Hardware Technician (Trainee)",
+    company_name: "BC Technology for Learning Society",
+    icon: shopify, // Keeping the same PNG name
+    iconBg: "#012F66",
+    date: "July 2023 - Oct 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Trained at a registered charity, refurbishing a record of 200+ laptops for distribution to schools, businesses, and low-income communities.",
+      "Conversed with 10+ clients daily, addressing laptop preferences, pick-up procedures, and resolving complaints.",
+      "Maintained inventory by organizing computers and monitors, documenting incoming shipments and donated laptops.",
     ],
   },
 ] as const;
+
 
 // Testimonials
 export const TESTIMONIALS = [
