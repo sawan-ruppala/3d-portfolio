@@ -182,7 +182,7 @@ export const TESTIMONIALS = [
     testimonial:
       "A solid support in front-end development and team-work when it came to developing our startup.",
     name: "Joshua Pater",
-    designation: "Business Student",
+    designation: "Business Student @",
     company: "BCIT",
     image: user1,
   },
@@ -190,7 +190,7 @@ export const TESTIMONIALS = [
     testimonial:
       "Sawan is a diligent and inquisitive thinker, always eager to learn and engage with new ideas.",
     name: "Jade Hadley",
-    designation: "Philosophy Professor",
+    designation: "Philosophy Professor @",
     company: "UBC",
     image: user2,
   },
@@ -198,7 +198,7 @@ export const TESTIMONIALS = [
     testimonial:
       "Sawan's skills and commitment have significantly contributed to my company's efficiency.",
     name: "Ravi Safaya",
-    designation: "CEO",
+    designation: "CEO @",
     company: "Pacific Cellulose LTD & YLSBC",
     image: user3,
   },
