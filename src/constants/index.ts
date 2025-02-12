@@ -1,35 +1,25 @@
-// Contains constant data for using in website
-// ! Don't remove anything from here if not sure
-
 import {
-  backend,
-  bulb,
-  close,
-  creator,
-  logo,
-  menu,
   mobile,
-  preview,
+  backend,
+  creator,
   web,
-  azure,
-  blazor,
-  csharp,
-  docker,
-  fastapi,
-  figma,
-  net,
-  nextjs,
-  nodejs,
-  postgres,
-  prisma,
-  python,
-  squarespace,
-  tailwind,
+  javascript,
   typescript,
+  html,
+  css,
+  reactjs,
+  redux,
+  tailwind,
+  nodejs,
+  mongodb,
+  git,
+  figma,
+  docker,
   meta,
-  shopify,
   starbucks,
   tesla,
+  shopify,
+  threejs,
   project1,
   project2,
   project3,
@@ -39,10 +29,10 @@ import {
   user1,
   user2,
   user3,
-  github,
   youtube,
   linkedin,
   twitter,
+  github,
 } from "../assets";
 
 // Navbar Links
@@ -92,68 +82,58 @@ export const SERVICES = [
 // Technologies
 export const TECHNOLOGIES = [
   {
-    name: "Azure",
-    icon: azure,
+    name: "HTML 5",
+    icon: html,
   },
   {
-    name: "Blazor",
-    icon: blazor,
+    name: "CSS 3",
+    icon: css,
   },
   {
-    name: "C#",
-    icon: csharp,
+    name: "JavaScript",
+    icon: javascript,
   },
   {
-    name: "Docker",
-    icon: docker,
+    name: "TypeScript",
+    icon: typescript,
   },
   {
-    name: "FastAPI",
-    icon: fastapi,
+    name: "React JS",
+    icon: reactjs,
   },
   {
-    name: "Figma",
-    icon: figma,
-  },
-  {
-    name: ".NET",
-    icon: net,
-  },
-  {
-    name: "Next.js",
-    icon: nextjs,
-  },
-  {
-    name: "Node.js",
-    icon: nodejs,
-  },
-  {
-    name: "PostgreSQL",
-    icon: postgres,
-  },
-  {
-    name: "Prisma",
-    icon: prisma,
-  },
-  {
-    name: "Python",
-    icon: python,
-  },
-  {
-    name: "Squarespace",
-    icon: squarespace,
+    name: "Redux Toolkit",
+    icon: redux,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
+  {
+    name: "docker",
+    icon: docker,
   },
 ] as const;
-
-
 // Experiences
 export const EXPERIENCES = [
   {
