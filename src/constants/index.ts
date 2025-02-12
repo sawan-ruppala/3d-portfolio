@@ -55,26 +55,26 @@ export const NAV_LINKS = [
   {
     id: "Resume",
     title: "Resume",
-    link: "http://www.github.com/sanidhyy/3d-portfolio/",
+    link: "https://drive.google.com/file/d/10vF65_TEFxSFzQiplsY0X1xezMqdjCFJ/view",
   },
 ] as const;
 
 // Services
 export const SERVICES = [
   {
-    title: "Web Developer",
+    title: "UI Designer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Azure Specialist",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Technology Sales",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Business Analyst",
     icon: creator,
   },
 ] as const;
@@ -180,26 +180,26 @@ export const EXPERIENCES = [
 export const TESTIMONIALS = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "A solid support in front-end development and team-work when it came to developing our startup.",
+    name: "Joshua Pater",
+    designation: "Business Student",
+    company: "BCIT",
     image: user1,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Sawan is a diligent and inquisitive thinker, always eager to learn and engage with new ideas.",
+    name: "Jade Hadley",
+    designation: "Philosophy Professor",
+    company: "UBC",
     image: user2,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Sawan's skills and commitment have significantly contributed to my company's efficiency.",
+    name: "Ravi Safaya",
+    designation: "CEO",
+    company: "Pacific Cellulose LTD & YLSBC",
     image: user3,
   },
 ] as const;
@@ -286,21 +286,17 @@ export const SOCIALS = [
   {
     name: "YouTube",
     icon: youtube,
-    link: "https://www.youtube.com/@OPGAMER.",
+    link: "https://www.youtube.com/@navy1326-robloxgaming",
   },
   {
     name: "Linkedin",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/sanidhyy",
+    link: "https://www.linkedin.com/in/sawan-ruppala",
   },
-  {
-    name: "Twitter",
-    icon: twitter,
-    link: "https://twitter.com/TechnicalShubam",
-  },
+  
   {
     name: "GitHub",
     icon: github,
-    link: "https://github.com/sanidhyy",
+    link: "https://github.com/sawan-ruppala",
   },
 ] as const;
